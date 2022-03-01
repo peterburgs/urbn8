@@ -1,0 +1,20 @@
+.container {
+	margin: 0;
+}
+
+.box {
+	height: 5rem;
+	width: 5rem;
+	background-color: #ea3223;
+	color: #fffd54;
+	border-radius: 50%;
+	text-decoration: underline;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+    top: 50%;
+	left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
