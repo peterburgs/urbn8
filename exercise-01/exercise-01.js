@@ -1,3 +1,4 @@
+const ARRAY = [5, 9, 6, 8, 4, 6];
 const recursiveSum = (array) => {
 	if (!array.length) {
 		return 0;
@@ -7,11 +8,9 @@ const recursiveSum = (array) => {
 };
 
 const exercise01 = (req, res, next) => {
-	const array = [5, 9, 6, 8, 4, 6];
-	
+    console.log(`🌷🌷🌷 Sum of array using recursion is: ${recursiveSum(ARRAY)}`)
 	res.status(200).json({
-        givenArray: array.toString(),
-        summary: recursiveSum(array)
+		message: "Exercise 01 solved",
 	});
 	next();
 };
